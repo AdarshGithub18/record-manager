@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'inter';
+}
+
+header {
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.data-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.records-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 1.2rem;
+  /* margin: 30px; */
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 9px;
+  width: 50%;
+}
+
+.records-data span {
+  text-align: center; /* Ensure the text inside each span is centered */
+  flex: 1; /* Make each span take equal space */
+}
